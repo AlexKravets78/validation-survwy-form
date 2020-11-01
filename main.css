@@ -1,0 +1,41 @@
+body{
+background-color:rgb(169, 169, 199);
+}
+h1{
+    text-align:center;
+}
+p{
+    text-align:center;
+}
+#box{
+    margin: auto;
+    width: 500px;
+    height:700px;
+    padding: 15px 10px 10px 20px;
+    text-align:center;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    background-color:rgba(243, 239, 11, 0.89);
+}
+.field{
+    width:300px;
+    font-weight:bold;
+}
+
+#radio-buttons{
+    text-align:left;
+    margin-left: 90px;
+}
+#textarea{
+    width: 300px;
+    height: 100px;
+}
+.lable{
+    font-weight:bold;
+    text-align:left;
+    color:white;
+}
+#submit{
+    color:white;
+    background-color:green;
+    width: 300px;
+}

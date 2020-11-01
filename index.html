@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<title>Survey form</title>
+<link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+<h1 id="title">Survey form</h1>
+<p id="descrittion">Реєсрація користувача на сайті провайдера</p>
+<div id="box">
+<form id="survey-form" class="form">
+    <label for="name" id="name-label" class="lable">Введіть ім'я</label><br>
+    <input placeholder="Введіть ім'я" id="name" class="field"><br>
+    <label for="email" id="email-label" class="lable">Введіть вашу електронну пошту:</label><br>
+    <input type="email" placeholder="Введіть email" id="email" class="field" ><br>
+    <label for="number" id="number-label" class="lable">Введіть ваш вік:</label><br>
+    <input type="number" placeholder="Введіть ваш вік"  id="number" class="field" ><br>
+    <label for="fee"  class="lable">Виберіть тарифний план:</label><br>
+    <select type="radio" id="dropdown" name="fee" value="100" class="field"><br>
+        <option>100$</option>
+        <option>200$</option>
+        <option>300$</option>
+    </select>
+    <div id="radio-buttons">
+    <label for="check"  class="lable">Рекомендуватимете нас друзям?</label><br>
+    <label for="check"><input id="yes"type="radio" name="btn" >Так</label><br>
+    <label for="check"><input id="no"type="radio" name="btn" >Ні</label><br>
+    <label for="check"><input id="maybe"type="radio" name="btn" >Не знаю</label><br>
+    <label class="lable">Виберіть попереднього провайдера:</label><br>
+    <label for="ukrtelekom"><input id="ukrtelecom"type="checkbox" name="ukrteleom" >Ukrtelecom</label><br>
+    <label for="columbus"><input id="columbus"type="checkbox" name="columbus" >Columbus</label><br>
+    <label for="lviv"><input id="lviv"type="checkbox" name="lviv" >Lviv networck</label><br>
+    <label for="kyivsyar"><input id="kyivsyar"type="checkbox" name="kyivsyar" >Kyivstar</label><br>
+    <label for="volya"><input id="volya"type="checkbox" name="volya" >Воля</label><br>
+    <label for="kopiyka"><input id="kopiyka"type="checkbox" name="kopiyka" >Kopiyka</label><br>
+    </div>
+    <textarea type="text" id="textarea" name="textarea" placeholder="Ваш коментар" class="text"></textarea><br>
+    <button id="submit"type="submit" class="valid">Відправити</button>
+</form>
+</div>
+<script src="main.js"></script>
+    </body>
+</html>
